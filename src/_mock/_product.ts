@@ -129,7 +129,7 @@ const IMAGES = [...Array(8)].map((_, index) => _mock.image.product(index));
 
 // ----------------------------------------------------------------------
 
-export const _products = [...Array(20)].map((_, index) => {
+export const _products = [...Array(21)].map((_, index) => {
   const publish = index % 3 ? 'published' : 'draft';
 
   const category = (index % 2 && 'Shose') || (index % 3 && 'Apparel') || 'Accessories';
