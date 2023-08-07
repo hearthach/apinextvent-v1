@@ -142,6 +142,12 @@ export const _products = [...Array(21)].map((_, index) => {
 
   const priceSale = index % 3 ? null : _mock.number.price(index);
 
+  // Agregar esta sección para filtrar productos según la categoría
+  const isPolosCategory = category === 'Shose'; // Actualiza con la categoría correcta para polos
+  if (!isPolosCategory) {
+    return null; // Devuelve null para productos que no sean de la categoría polos
+  }
+
   return {
     id: _mock.id(index),
     gender,
@@ -198,4 +204,4 @@ export const _products = [...Array(21)].map((_, index) => {
       (index === 19 && COLORS.slice(4, 6)) ||
       COLORS.slice(2, 6),
   };
-});
+}).filter(product => product !== null); // Filtrar los productos nulos generados anteriormente
