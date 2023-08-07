@@ -69,8 +69,7 @@ export const _mock = {
     avatar: (index: number) => `${HOST_API}/assets/images/avatar/avatar_${index + 1}.jpg`,
     travel: (index: number) => `${HOST_API}/assets/images/travel/travel_${index + 1}.jpg`,
     company: (index: number) => `${HOST_API}/assets/images/company/company_${index + 1}.png`,
-    // product: (index: number) => `${HOST_API}/assets/images/m_product/product_${index + 1}.jpg`,
-    product: (category: string, index: number) => `${HOST_API}/assets/images/m_product/${category}/product_${index + 1}.jpg`,
+    product: (index: number) => `${HOST_API}/assets/images/m_product/product_${index + 1}.jpg`,
     portrait: (index: number) => `${HOST_API}/assets/images/portrait/portrait_${index + 1}.jpg`,
   },
 };

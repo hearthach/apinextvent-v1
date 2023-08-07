@@ -134,11 +134,11 @@ export const _products = [...Array(21)].map((_, index) => {
 
   // const category = (index % 2 && 'Shose') || (index % 3 && 'Apparel') || 'Accessories';
 
-  const category = 
-                  (index % 4 === 0 && 'Polos') ||
-                  (index % 4 === 1 && 'Poleras') ||
-                  (index % 4 === 2 && 'Shorts') ||
-                  (index % 4 === 3 && 'Jogger');
+  const category =
+  (index % 4 === 0 && 'Polos') ||
+  (index % 4 === 1 && 'Poleras') ||
+  (index % 4 === 2 && 'Shorts') ||
+  (index % 4 === 3 && 'Jogger');
 
   const gender = (index % 2 && 'Men') || (index % 3 && 'Women') || 'Kids';
 
