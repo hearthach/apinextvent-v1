@@ -132,18 +132,7 @@ const IMAGES = [...Array(8)].map((_, index) => _mock.image.product(index));
 export const _products = [...Array(21)].map((_, index) => {
   const publish = index % 3 ? 'published' : 'draft';
 
-  let category;
-  if (index % 4 === 0) {
-    category = 'Polos';
-  } else if (index % 4 === 1) {
-    category = 'Poleras';
-  } else if (index % 4 === 2) {
-    category = 'Shorts';
-  } else {
-    category = 'Jogger';
-  }
-
-  // const category = (index % 2 && 'Shose') || (index % 3 && 'Apparel') || 'Accessories';
+  const category = (index % 2 && 'Shose') || (index % 3 && 'Apparel') || 'Accessories';
 
   const gender = (index % 2 && 'Men') || (index % 3 && 'Women') || 'Kids';
 
@@ -152,12 +141,6 @@ export const _products = [...Array(21)].map((_, index) => {
   const inventoryType = (index % 2 && 'in stock') || (index % 3 && 'low stock') || 'out of stock';
 
   const priceSale = index % 3 ? null : _mock.number.price(index);
-
-  // Agregar esta sección para filtrar productos según la categoría
-  const isPolosCategory = category === 'Shose'; // Actualiza con la categoría correcta para polos
-  if (!isPolosCategory) {
-    return null; // Devuelve null para productos que no sean de la categoría polos
-  }
 
   return {
     id: _mock.id(index),
@@ -215,4 +198,4 @@ export const _products = [...Array(21)].map((_, index) => {
       (index === 19 && COLORS.slice(4, 6)) ||
       COLORS.slice(2, 6),
   };
-}).filter(product => product !== null); // Filtrar los productos nulos generados anteriormente
+});
