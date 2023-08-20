@@ -89,7 +89,8 @@ const DESCRIPTION = `
 
 `;
 
-const SIZES = ['6', '7', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12', '13'];
+const SIZES = ['S','M','L','XL'];
+// const SIZES = ['S','M','L','XL','6', '7', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12', '13'];
 
 const ATTACHMENTS = [...Array(20)].map((_, index) => _mock.image.product(index));
 
