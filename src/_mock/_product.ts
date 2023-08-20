@@ -177,7 +177,7 @@ export const _products = [...Array(21)].map((_, index) => {
     totalSold: _mock.number.nativeM(index + 1),
     totalReviews: _mock.number.nativeL(index + 1),
     subDescription:
-      'Featuring the original ripple design inspired by Japanese bullet trains, the Nike Air Max 97 lets you push your style full-speed ahead.',
+      'Con el diseño original inspirado en los ultimos estandares de modo, hecho con tela y algodon 100% Peruano.',
     colors:
       (index === 0 && COLORS.slice(0, 2)) ||
       (index === 1 && COLORS.slice(1, 3)) ||
