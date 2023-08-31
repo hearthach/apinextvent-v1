@@ -16,17 +16,17 @@ const COLORS = [
 ];
 
 const DESCRIPTION = `
-<h6>Specifications</h6>
+<h6>Especificaciones</h6>
 <br/>
 <ol>
-  <li>Category</li>
-  <li>Shoes</li>
+  <li>Categoría:</li>
+  <li>Polo</li>
 </ol>
 
 <br/>
 <ol>
-  <li>Manufacturer</li>
-  <li>Nike</li>
+  <li>Hecho en:</li>
+  <li>Zilex</li>
 </ol>
 
 <br/>
@@ -36,56 +36,32 @@ const DESCRIPTION = `
 </ol>
 
 <br/>
-<ol>
-  <li>Ships From</li>
-  <li>United States</li>
-</ol>
-
-<br/>
 <br/>
 
-<h6>Product Details</h6>
+<h6>Detalles del Producto</h6>
 <br/>
 <ul>
-  <li><p>The foam sockliner feels soft and comfortable</p></li>
-  <li><p>Pull tab</p></li>
-  <li><p>Not intended for use as Personal Protective Equipment</p></li>
+  <li><p>Polo girasol 30/1</p></li>
+  <li><p>Colección 🏔️Travel Maker🏕️</p></li>
+  <li><p>Tallas y colores disponibles</p></li>
   <li><p>Colour Shown: White/Black/Oxygen Purple/Action Grape</p></li>
-  <li><p>Style: 921826-109</p></li>
-  <li><p>Country/Region of Origin: China</p></li>
+  <li><p>Limited Edition</p></li>
+  <li><p>Hecho en Perú</p></li>
 </ul>
 
 <br/>
 <br/>
 
-<h6>Benefits</h6>
+<h6>Entrega y Devoluciones</h6>
+<br/>
+<p>Tu pedido de S/.200.00 o más obtiene envío estándar gratuito.</p>
 <br/>
 <ul>
-  <li>
-    <p>Mesh and synthetic materials on the upper keep the fluid look of the OG while adding comfort</p>
-    and durability.
-  </li>
-  <li>
-    <p>Originally designed for performance running, the full-length Max Air unit adds soft, comfortable cushio</p>
-    ning underfoot.
-  </li>
-  <li><p>The foam midsole feels springy and soft.</p></li>
-  <li><p>The rubber outsole adds traction and durability.</p></li>
-</ul>
-
-<br/>
-<br/>
-
-<h6>Delivery and Returns</h6>
-<br/>
-<p>Your order of $200 or more gets free standard delivery.</p>
-<br/>
-<ul>
-  <li><p>Standard delivered 4-5 Business Days</p></li>
-  <li><p>Express delivered 2-4 Business Days</p></li>
+  <li><p>Entrega estándar en 4-5 días hábiles.</p></li>
+  <li><p>Entrega exprés en 2-4 días hábiles.</p></li>
 </ul>
 <br/>
-<p>Orders are processed and delivered Monday-Friday (excluding public holidays)</p>
+<p>Los pedidos se procesan y entregan de lunes a viernes (excepto días festivos).</p>
 
 `;
 
