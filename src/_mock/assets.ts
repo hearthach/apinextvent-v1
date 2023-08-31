@@ -297,27 +297,27 @@ export const _postTitles = [
 // ----------------------------------------------------------------------
 
 export const _productNames = [
-  'Polo muestra 8',
-  'Polo muestra 9',
-  'Polo muestra 14',
-  'Polo muestra 16',
-  'Polo muestra 12',
-  'Polo Girasol',
-  'Polo muestra 21',
-  'Polo muestra 17',
-  'Polo muestra 15',
-  'Polo muestra 5',
-  'Polo muestra 11',
-  'Polo muestra 10',
-  'Polo muestra 3',
-  'Polo muestra 18',
-  'Polo muestra 20',
-  'Polo muestra 13',
-  'Polo muestra 4',
-  'Polo muestra 19',
-  'Polo muestra 2',
-  'Polo muestra 6',
-  'Polo muestra 7',
+  'Polo muestra 8',   // 0  : Polos
+  'Polera muestra 9',   // 1  : Poleras
+  'Short muestra 14',  // 2  : Shorts
+  'Jogger muestra 16',  // 3  : Jogger
+  'Polo muestra 12',  // 4  : Polos
+  'Polera muestra 1',   // 5  : Poleras
+  'Short muestra 21',  // 6  : Shorts
+  'Jogger muestra 17',  // 7  : Jogger
+  'Polo muestra 15',  // 8  : Polos
+  'Polera muestra 5',   // 9  : Poleras
+  'Short muestra 11',  // 10 : Shorts
+  'Jogger muestra 10',  // 11 : Jogger
+  'Polo muestra 3',   // 12 : Polos
+  'Polera muestra 18',  // 13 : Poleras
+  'Short muestra 20',  // 14 : Shorts
+  'Jogger muestra 13',  // 15 : Jogger
+  'Polo muestra 4',   // 16 : Polos
+  'Polera muestra 19',  // 17 : Poleras
+  'Short muestra 2',   // 18 : Shorts
+  'Jogger muestra 6',   // 19 : Jogger
+  'Polo muestra 7',   // 20 : Polos
   'Superturf Adventure X Atmos',
   'Chuck Taylor All Star Lift Sneaker',
   'Run Star Hike Platform Sneaker',

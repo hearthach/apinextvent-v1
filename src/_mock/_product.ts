@@ -110,14 +110,16 @@ const REVIEWS = [...Array(8)].map((_, index) => ({
     [],
 }));
 
+// ETIQUETA NUEVOS PRODUCOS
 const NEW_LABELS = [...Array(20)].map((_, index) => ({
-  enabled: [1, 2, 3].includes(index),
-  content: 'NEW',
+  enabled: [1, 2, 3, 10, 11].includes(index),
+  content: 'NUEVO',
 }));
 
+// ETIQUETAS MAS VENDIDOS
 const SALE_LABELS = [...Array(20)].map((_, index) => ({
-  enabled: [4, 5].includes(index),
-  content: 'SALE',
+  enabled: [4, 5, 17, 16].includes(index),
+  content: 'MÁS VENDIDO',
 }));
 
 const RATINGS = [...Array(5)].map((_, index) => ({
