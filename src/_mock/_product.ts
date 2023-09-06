@@ -71,7 +71,7 @@ const NEW_LABELS = [...Array(20)].map((_, index) => ({
 
 // ETIQUETAS MAS VENDIDOS
 const SALE_LABELS = [...Array(20)].map((_, index) => ({
-  enabled: [4, 5, 17, 16].includes(index),
+  enabled: [4, 5, 17, 18].includes(index),
   content: 'MÁS VENDIDO',
 }));
 
