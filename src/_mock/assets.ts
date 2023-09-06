@@ -297,27 +297,27 @@ export const _postTitles = [
 // ----------------------------------------------------------------------
 
 export const _productNames = [
-  'Polo muestra 8',   // 0  : Polos
-  'Polera muestra 9',   // 1  : Poleras
-  'Short muestra 14',  // 2  : Shorts
-  'Jogger muestra 16',  // 3  : Jogger
-  'Polo muestra 12',  // 4  : Polos
-  'Polera muestra 1',   // 5  : Poleras
-  'Short muestra 21',  // 6  : Shorts
-  'Jogger muestra 17',  // 7  : Jogger
-  'Polo muestra 15',  // 8  : Polos
-  'Polera muestra 5',   // 9  : Poleras
-  'Short muestra 11',  // 10 : Shorts
-  'Jogger muestra 10',  // 11 : Jogger
-  'Polo muestra 3',   // 12 : Polos
-  'Polera muestra 18',  // 13 : Poleras
-  'Short muestra 20',  // 14 : Shorts
-  'Jogger muestra 13',  // 15 : Jogger
-  'Polo muestra 4',   // 16 : Polos
-  'Polera muestra 19',  // 17 : Poleras
-  'Short muestra 2',   // 18 : Shorts
-  'Jogger muestra 6',   // 19 : Jogger
-  'Polo muestra 7',   // 20 : Polos
+  'Polo muestra 8',   // 0  : Polos       -> product_1
+  'Polera muestra 9',   // 1  : Poleras   -> product_2
+  'Short muestra 14',  // 2  : Shorts     -> product_3
+  'Jogger muestra 16',  // 3  : Jogger    -> product_4
+  'Polo muestra 12',  // 4  : Polos       -> product_5
+  'Polera muestra 1',   // 5  : Poleras   -> product_6
+  'Short muestra 21',  // 6  : Shorts     -> product_7
+  'Jogger muestra 17',  // 7  : Jogger    -> product_8
+  'Polo muestra 15',  // 8  : Polos       -> product_9
+  'Polera muestra 5',   // 9  : Poleras   -> product_10
+  'Short muestra 11',  // 10 : Shorts     -> product_11
+  'Jogger muestra 10',  // 11 : Jogger    -> product_12
+  'Polo muestra 3',   // 12 : Polos       -> product_13
+  'Polera muestra 18',  // 13 : Poleras   -> product_14
+  'Short muestra 20',  // 14 : Shorts     -> product_15
+  'Jogger muestra 13',  // 15 : Jogger    -> product_16
+  'Polo muestra 4',   // 16 : Polos       -> product_17
+  'Polera muestra 19',  // 17 : Poleras   -> product_18
+  'Short muestra 2',   // 18 : Shorts     -> product_19
+  'Jogger muestra 6',   // 19 : Jogger    -> product_20
+  'Polo muestra 7',   // 20 : Polos       -> product_21
   'Superturf Adventure X Atmos',
   'Chuck Taylor All Star Lift Sneaker',
   'Run Star Hike Platform Sneaker',

@@ -16,22 +16,7 @@ const COLORS = [
 ];
 
 const DESCRIPTION = `
-<h6>Especificaciones</h6>
-<ol>
-  <li>Categoría:</li>
-  <li>Polo</li>
-</ol>
-<ol>
-  <li>Hecho en:</li>
-  <li>Zilex</li>
-</ol>
-<ol>
-  <li>Serial Number</li>
-  <li>358607726380311</li>
-</ol>
-<br/>
-
-<h6>Detalles del Producto</h6>
+<h6>ESPECIFICACIONES</h6>
 <ul>
   <li><p>Polo girasol 30/1</p></li>
   <li><p>Colección 🏔️Travel Maker🏕️</p></li>
@@ -40,13 +25,20 @@ const DESCRIPTION = `
   <li><p>Limited Edition</p></li>
   <li><p>Hecho en Perú</p></li>
 </ul>
-<h6>Entrega y Devoluciones</h6>
+<br/>
+
+<h6>CAMBIOS Y DEVOLUCIONES</h6>
+<ul>
+  <li><p>Colección 🏔️Travel Maker🏕️</p></li>  
+</ul>
 <p>Tu pedido de S/.200.00 o más obtiene envío estándar gratuito.</p>
 <ul>
   <li><p>Entrega estándar en 4-5 días hábiles.</p></li>
   <li><p>Entrega exprés en 2-4 días hábiles.</p></li>
 </ul>
 <p>Los pedidos se procesan y entregan de lunes a viernes (excepto días festivos).</p>
+<br/>
+<h6>ENVÍOS</h6>
 
 `;
 
