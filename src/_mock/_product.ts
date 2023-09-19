@@ -26,20 +26,37 @@ const DESCRIPTION = `
   <li><p>Hecho en Perú</p></li>
 </ul>
 <br/>
-
 <h6>CAMBIOS Y DEVOLUCIONES</h6>
 <ul>
-  <li><p>Colección 🏔️Travel Maker🏕️</p></li>  
+  <li><p>En caso el producto se encuentre con un daño de origen, no
+  dude en devolverlo dentro de los 30 días posteriores a su
+  compra original. Entendemos que a veces las cosas simplemente
+  no funcionan y eso está bien.</p></li>  
 </ul>
-<p>Tu pedido de S/.200.00 o más obtiene envío estándar gratuito.</p>
 <ul>
-  <li><p>Entrega estándar en 4-5 días hábiles.</p></li>
-  <li><p>Entrega exprés en 2-4 días hábiles.</p></li>
+  <li><p>Para solicitar el cambio presentar el voucher de pago junto
+  al numero de orden directo a nuestro WhatsApp 980589089.</p></li>
 </ul>
-<p>Los pedidos se procesan y entregan de lunes a viernes (excepto días festivos).</p>
 <br/>
 <h6>ENVÍOS</h6>
+  <p>Todos nuestros envíos son realizados de Lunes a Sábado</p>
+    <p><b>TODO LIMA:</b> (1 dia hábil)</p>
+      <ul>
+        <li>Los envíos a todo LIMA serán realizados por Olva courier, uno de nuestros 
+        asesores se comunica con ud. para tratar el tema del costo de envio.
+        </li>
+      </ul>
 
+    <p><b>PROVINCIAS:</b> (2 a 3 días habiles)</p>
+      <ul>
+        <li>El envío se realizará por la empresa Shalom Empresarial el costo de envío será con pago en destino.</li>
+      </ul>
+
+    <p><b>PROVINCIAS ALEJADAS:</b></p>
+      <ul>
+        <li>Provincias alejadas uno de nuestros asesores de venta 
+        se comunicará con ud, para poder coordinar el envío por alguna otra empresa de su preferencia.</li>
+      </ul>
 `;
 
 const SIZES = ['S','M','L','XL'];
