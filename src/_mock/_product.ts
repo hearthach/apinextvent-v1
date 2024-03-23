@@ -1,3 +1,4 @@
+// src\_mock\_product.ts
 // utils
 import { _mock } from './_mock';
 import { _tags } from './assets';
@@ -103,6 +104,7 @@ const IMAGES = [...Array(8)].map((_, index) => _mock.image.product(index));
 // ----------------------------------------------------------------------
 
 export const _products = [...Array(21)].map((_, index) => {
+  // export const _products = [...].map(_, index) => {
   const publish = index % 3 ? 'published' : 'draft';
 
   // const category = (index % 2 && 'Shose') || (index % 3 && 'Apparel') || 'Accessories';
